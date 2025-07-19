@@ -4,7 +4,7 @@ set -e
 
 # --- 配置 ---
 # 配置文件的路径
-CONFIG_FILE="train_code/llama3.2_full_sft.yaml"
+CONFIG_FILE="train_code/train_shieldvlm.yaml"
 export WANDB_DISABLED="true"
 
 
