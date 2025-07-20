@@ -47,7 +47,7 @@ The model supports three core assessment tasks:
 You can use the `infer_shieldvlm.sh` script to quickly perform safety assessments on your data.
 
 1.  **Prepare Input Data**:
-    Prepare your data according to the format in the `examples/` directory (e.g., `examples/statement/example_input.json`). Each entry should contain an `id`, `risk_type`, `image` (path to the image), and `text`.
+    Prepare your data according to the format in the `examples/` directory (e.g., `examples/statement/example_input.json`). Each entry should contain an `id`, `image` (path to the image), and `text`.
 
 2.  **Run the Inference Script**:
     Modify the paths in `infer_shieldvlm.sh` or execute `infer.py` directly from the command line.
@@ -132,7 +132,7 @@ ShieldVLM 能够识别以下七个主要类别的安全风险：
 您可以使用 `infer_shieldvlm.sh` 脚本快速对您的数据进行安全评估。
 
 1.  **准备输入数据**:
-    参照 `examples/` 目录下的文件格式 (例如 `examples/statement/example_input.json`) 准备您的数据。 每个条目应包含 `id`, `risk_type`, `image` (图片路径) 和 `text`。
+    参照 `examples/` 目录下的文件格式 (例如 `examples/statement/example_input.json`) 准备您的数据。 每个条目应包含 `id`, `image` (图片路径) 和 `text`。
 
 2.  **运行推理脚本**:
     修改 `infer_shieldvlm.sh` 脚本中的路径，或直接通过命令行执行 `infer.py`。
